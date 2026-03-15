@@ -14,11 +14,11 @@ const UnserTeam = () => {
                 </p>
             </header>
 
-            <div className="glass" style={{ padding: 'var(--spacing-xl)', borderRadius: '12px', marginTop: 'var(--spacing-lg)' }}>
+            <div className="glass" style={{ padding: 'var(--spacing-lg)', borderRadius: '12px', marginTop: 'var(--spacing-lg)' }}>
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                    gap: 'var(--spacing-lg)'
+                    gap: 'var(--spacing-md)'
                 }}>
                     {/* Brigitte Heindl Card */}
                     <div className="team-member" style={{ textAlign: 'center' }}>
@@ -78,12 +78,11 @@ const UnserTeam = () => {
 
                 {/* Company Description Passage */}
                 <div style={{ 
-                    marginTop: 'var(--spacing-xl)', 
-                    paddingTop: 'var(--spacing-lg)', 
+                    paddingTop: 'var(--spacing-md)', 
                     borderTop: '1px solid var(--color-border)', 
                     textAlign: 'center', 
                     maxWidth: '800px', 
-                    margin: 'var(--spacing-xl) auto 0' 
+                    margin: 'var(--spacing-lg) auto 0' 
                 }}>
                     <p style={{ fontSize: '1.05rem', lineHeight: '1.6', color: 'var(--color-text)', marginBottom: 'var(--spacing-sm)' }}>
                         {t.team.p1}
