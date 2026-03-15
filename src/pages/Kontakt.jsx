@@ -6,11 +6,13 @@ const Contact = () => {
     const { t } = useLanguage();
 
     return (
-        <div className="container animate-fade-in" style={{ padding: 'var(--spacing-xl) 0' }}>
-            <h1 style={{ color: 'var(--color-primary)' }}>{t.contactPage.title}</h1>
-            <p style={{ maxWidth: '600px', marginBottom: 'var(--spacing-md)' }}>
-                {t.contactPage.desc}
-            </p>
+        <div className="container animate-fade-in" style={{ paddingTop: 'var(--spacing-xl)', paddingBottom: 'var(--spacing-xl)' }}>
+            <header style={{ marginBottom: 'var(--spacing-lg)', textAlign: 'center' }}>
+                <h1 style={{ color: 'var(--color-primary)' }}>{t.contactPage.title}</h1>
+                <p style={{ color: 'var(--color-text-light)', marginTop: 'var(--spacing-sm)', maxWidth: '600px', margin: 'var(--spacing-sm) auto 0' }}>
+                    {t.contactPage.desc}
+                </p>
+            </header>
 
             <div style={{ display: 'grid', gap: 'var(--spacing-lg)', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
                 <div className="glass" style={{ padding: 'var(--spacing-lg)', borderRadius: '8px' }}>

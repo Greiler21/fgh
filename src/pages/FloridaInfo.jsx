@@ -5,7 +5,7 @@ const FloridaInfo = () => {
     const { t } = useLanguage();
 
     return (
-        <div className="container animate-fade-in" style={{ padding: 'var(--spacing-xl) 0', minHeight: '60vh' }}>
+        <div className="container animate-fade-in" style={{ paddingTop: 'var(--spacing-xl)', paddingBottom: 'var(--spacing-xl)', minHeight: '60vh' }}>
             <header style={{ marginBottom: 'var(--spacing-lg)', textAlign: 'center' }}>
                 <h1>{t.info.title}</h1>
                 <p style={{ color: 'var(--color-text-light)', marginTop: 'var(--spacing-sm)' }}>
