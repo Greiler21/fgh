@@ -15,6 +15,7 @@ export const translations = {
             description: 'Unsere Stärke liegt in Professionalität und der verantwortungsvollen, individuellen Betreuung unserer zufriedenen Kunden.',
             btnOffers: 'Aktuelle Verkaufsangebote',
             btnSold: 'Verkaufte Immobilien',
+            btnInstagram: 'Folge uns auf Instagram',
             sectionTitle: 'Aktuelle Angebote',
             sectionDesc: 'Entdecken Sie unsere exklusive Auswahl an Luxus-Immobilien',
             services: {
@@ -128,6 +129,7 @@ export const translations = {
             description: 'We pride ourselves on our professionalism and the responsible dealings with our satisfied customers, catering to their individual needs.',
             btnOffers: 'Current Listings',
             btnSold: 'Sold Properties',
+            btnInstagram: 'Follow us on Instagram',
             sectionTitle: 'Featured Properties',
             sectionDesc: 'Discover our exclusive selection of luxury real estate',
             services: {

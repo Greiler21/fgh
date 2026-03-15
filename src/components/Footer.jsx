@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
+import { Instagram } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -28,6 +29,12 @@ const Footer = () => {
                         <a href="mailto:sales@FGHRealty.com">sales@FGHRealty.com</a>
                         <a href="tel:239-540-3485">239-540-3485</a>
                         <Link to="/kontakt">{t.footer.contactForm}</Link>
+                    </div>
+                    <div className="footer-column">
+                        <h3>Social Media</h3>
+                        <a href="https://www.instagram.com/fghrealty?igsh=ZjZ2eXRuNm1kOWho&utm_source=qr" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#E1306C' }}>
+                            <Instagram size={20} /> Instagram
+                        </a>
                     </div>
                 </div>
             </div>

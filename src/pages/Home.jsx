@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PropertyCard from '../components/PropertyCard';
 import { getProperties } from '../data/properties';
 import { useLanguage } from '../contexts/LanguageContext';
+import { Instagram } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -23,9 +24,13 @@ const Home = () => {
                         <p className="hero-description">
                             {t.home.description}
                         </p>
-                        <div className="hero-actions">
+                        <div className="hero-actions" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                             <Link to="/fgh-angebote" className="btn btn-primary">{t.home.btnOffers}</Link>
-                            <Link to="/verkaufte-immobilien" className="btn btn-outline" style={{ marginLeft: '1rem', background: 'var(--color-surface)' }}>{t.home.btnSold}</Link>
+                            <Link to="/verkaufte-immobilien" className="btn btn-outline" style={{ background: 'var(--color-surface)' }}>{t.home.btnSold}</Link>
+                            <a href="https://www.instagram.com/fghrealty?igsh=ZjZ2eXRuNm1kOWho&utm_source=qr" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--color-surface)', borderColor: '#E1306C', color: '#E1306C' }}>
+                                <Instagram size={20} />
+                                {t.home.btnInstagram}
+                            </a>
                         </div>
                     </div>
                 </div>
