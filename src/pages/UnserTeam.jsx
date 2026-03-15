@@ -17,7 +17,7 @@ const UnserTeam = () => {
             <div style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
-                gap: 'var(--spacing-xl)',
+                gap: 'var(--spacing-md)',
                 marginTop: 'var(--spacing-lg)'
             }}>
                 {/* Brigitte Heindl Card */}
