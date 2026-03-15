@@ -24,10 +24,10 @@ const Home = () => {
                         <p className="hero-description">
                             {t.home.description}
                         </p>
-                        <div className="hero-actions" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                            <Link to="/fgh-angebote" className="btn btn-primary">{t.home.btnOffers}</Link>
-                            <Link to="/verkaufte-immobilien" className="btn btn-outline" style={{ background: 'var(--color-surface)' }}>{t.home.btnSold}</Link>
-                            <a href="https://www.instagram.com/fghrealty?igsh=ZjZ2eXRuNm1kOWho&utm_source=qr" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--color-surface)', borderColor: '#E1306C', color: '#E1306C' }}>
+                        <div className="hero-actions" style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%', maxWidth: '350px', margin: '0 auto' }}>
+                            <Link to="/fgh-angebote" className="btn btn-outline" style={{ width: '100%', justifyContent: 'center', background: 'var(--color-surface)' }}>{t.home.btnOffers}</Link>
+                            <Link to="/verkaufte-immobilien" className="btn btn-outline" style={{ width: '100%', justifyContent: 'center', background: 'var(--color-surface)' }}>{t.home.btnSold}</Link>
+                            <a href="https://www.instagram.com/fghrealty?igsh=ZjZ2eXRuNm1kOWho&utm_source=qr" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', width: '100%', background: 'var(--color-surface)', color: 'var(--color-text)' }}>
                                 <Instagram size={20} />
                                 {t.home.btnInstagram}
                             </a>

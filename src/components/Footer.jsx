@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-column">
                         <h3>Social Media</h3>
-                        <a href="https://www.instagram.com/fghrealty?igsh=ZjZ2eXRuNm1kOWho&utm_source=qr" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#E1306C' }}>
+                        <a href="https://www.instagram.com/fghrealty?igsh=ZjZ2eXRuNm1kOWho&utm_source=qr" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                             <Instagram size={20} /> Instagram
                         </a>
                     </div>
