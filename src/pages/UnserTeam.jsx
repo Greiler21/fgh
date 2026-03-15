@@ -20,6 +20,33 @@ const UnserTeam = () => {
                 gap: 'var(--spacing-xl)',
                 marginTop: 'var(--spacing-lg)'
             }}>
+                {/* Brigitte Heindl Card */}
+                <div className="team-member glass" style={{ padding: 'var(--spacing-lg)', borderRadius: '12px', textAlign: 'center' }}>
+                    <img
+                        src="./images/brigitte-heindl.jpg"
+                        alt="Brigitte Heindl"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '8px',
+                            objectFit: 'cover',
+                            margin: '0 auto var(--spacing-md)',
+                            border: '3px solid var(--color-secondary)'
+                        }}
+                    />
+                    <h2 style={{ fontSize: '1.5rem', marginBottom: '0.25rem' }}>Brigitte Heindl</h2>
+                    <h4 style={{ color: 'var(--color-secondary)', textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '0.1em', marginBottom: 'var(--spacing-md)' }}>
+                        {t.team.owner}
+                    </h4>
+
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', marginBottom: 'var(--spacing-md)' }}>
+                        <a href="mailto:brigitte@fghrealty.com" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-primary)', textDecoration: 'none', fontWeight: '500' }}>
+                            <Mail size={16} /> brigitte@fghrealty.com
+                        </a>
+                    </div>
+                </div>
+
+                {/* Klaus Reinig Card */}
                 <div className="team-member glass" style={{ padding: 'var(--spacing-lg)', borderRadius: '12px', textAlign: 'center' }}>
                     <img
                         src="./images/klaus-reinig-realtor.jpg"

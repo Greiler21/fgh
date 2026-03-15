@@ -64,6 +64,7 @@ export const translations = {
         team: {
             title: 'Unser Team',
             subtitle: 'Lernen Sie die Experten von FGH Realty kennen.',
+            owner: 'Eigentümer',
             realtor: 'Realtor',
             p1: 'Wir verfügen über eine mehr als 20-jährige Florida Erfahrung im Verkauf, Bau und Vermietung von luxuriösen Ferienhäusern in Toplagen in Fort Myers, Cape Coral, Pine Island in Südwest-Florida.',
             p2: 'Unsere Stärke liegt in Professionalität und der verantwortungsvollen, individuellen Betreuung unserer zufriedenen Kunden.'
@@ -178,6 +179,7 @@ export const translations = {
         team: {
             title: 'Our Team',
             subtitle: 'Get to know the experts at FGH Realty.',
+            owner: 'Owner',
             realtor: 'Realtor',
             p1: 'We have more than 20 years of Florida experience in the sale, construction and rental of luxury vacation homes in prime locations in Fort Myers, Cape Coral, Pine Island in Southwest Florida.',
             p2: 'Our strength lies in professionalism and the responsible, individual care of our satisfied customers.'
