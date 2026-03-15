@@ -27,7 +27,6 @@ const Navbar = () => {
         { name: t.nav.home, path: '/' },
         { name: t.nav.search, path: '/immobiliensuche' },
         { name: t.nav.listings, path: '/fgh-angebote' },
-        { name: t.nav.rentals, path: '/ferienvillen' },
         { name: t.nav.info, path: '/florida-info' },
         { name: t.nav.team, path: '/unser-team' },
         { name: t.nav.contact, path: '/kontakt' }

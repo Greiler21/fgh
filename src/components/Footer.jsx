@@ -21,7 +21,6 @@ const Footer = () => {
                     <div className="footer-column">
                         <h3>{t.footer.nav}</h3>
                         <Link to="/immobiliensuche">{t.footer.navSearch}</Link>
-                        <Link to="/ferienvillen">{t.footer.navRentals}</Link>
                         <Link to="/verkaufte-immobilien">{t.footer.navSold}</Link>
                     </div>
                     <div className="footer-column">

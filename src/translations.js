@@ -60,14 +60,6 @@ export const translations = {
             btnSearch: 'Suchen',
             btnLogin: 'Hier Anmelden'
         },
-        rentals: {
-            title: 'Florida Ferienvillen',
-            p1: 'Wir verfügen über eine mehr als 20-jährige Erfahrung in der Vermietung von luxuriösen Ferienhäusern in Top-Lagen in Fort Myers, Cape Coral, Sanibel und Capitva in Südwest-Florida.',
-            p2: 'Unsere Stärke liegt in Professionalität, sehr gepflegten Villen mit allerbester Ausstattung und der verantwortungsvollen, individuellen und freundlichen Betreuung unserer zufriedenen Kunden. Vertrauen auch Sie uns die wertvollsten Wochen Ihres Jahres an!',
-            plan: 'Planen Sie Ihren Urlaub?',
-            contactDesc: 'Kontaktieren Sie uns für weitere Informationen zu unseren verfügbaren Villen.',
-            btnContact: 'Kontakt Aufnehmen'
-        },
         team: {
             title: 'Unser Team',
             subtitle: 'Lernen Sie die Experten von FGH Realty kennen.',
@@ -180,14 +172,6 @@ export const translations = {
             placeholder: 'City, ZIP, MLS Number...',
             btnSearch: 'Search',
             btnLogin: 'Login Here'
-        },
-        rentals: {
-            title: 'Florida Vacation Rentals',
-            p1: 'We have more than 20 years of experience in renting out luxurious vacation homes in prime locations in Fort Myers, Cape Coral, Sanibel and Captiva in Southwest Florida.',
-            p2: 'Our strength lies in professionalism, very well-maintained villas with the very best equipment and the responsible, individual and friendly care of our satisfied customers. Trust us with the most valuable weeks of your year!',
-            plan: 'Planning your vacation?',
-            contactDesc: 'Contact us for more information about our available villas.',
-            btnContact: 'Get in Touch'
         },
         team: {
             title: 'Our Team',

@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Kontakt from './pages/Kontakt';
 import Immobiliensuche from './pages/Immobiliensuche';
 import FGHAngebote from './pages/FGHAngebote';
-import Ferienvillen from './pages/Ferienvillen';
 import VerkaufteImmobilien from './pages/VerkaufteImmobilien';
 import FloridaInfo from './pages/FloridaInfo';
 import UnserTeam from './pages/UnserTeam';
@@ -20,7 +19,6 @@ function App() {
         {/* Real Estate Categories */}
         <Route path="immobiliensuche" element={<Immobiliensuche />} />
         <Route path="fgh-angebote" element={<FGHAngebote />} />
-        <Route path="ferienvillen" element={<Ferienvillen />} />
         <Route path="verkaufte-immobilien" element={<VerkaufteImmobilien />} />
 
         {/* Dynamic Property Route */}
