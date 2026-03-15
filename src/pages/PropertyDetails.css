@@ -1,0 +1,135 @@
+/* Property Details Styles */
+
+/* Hero Section */
+.property-title-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Content Layout */
+.single-property-content {
+    z-index: 3;
+    position: relative;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.main-details {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 12px;
+}
+
+.property-description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-light);
+}
+
+/* Features List (Top) */
+.features-list {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    /* Subtle background */
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 1;
+    min-width: 120px;
+}
+
+.feature-value {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.feature-label {
+    display: block;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Extended Features (Grid Layout) */
+.extended-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xs);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--spacing-sm);
+}
+
+@media (max-width: 600px) {
+    .extended-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+.feature-section h4 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-primary);
+    /* Changed to primary color for better contrast */
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.amenity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amenity-list li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+    color: var(--color-text-light);
+    font-size: 1rem;
+}
+
+.amenity-icon {
+    color: var(--color-primary);
+    opacity: 0.8;
+}
+
+/* Sidebar Contact Card */
+.contact-sidebar {
+    height: 100%;
+}
+
+.contact-card.sticky {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 12px;
+    position: sticky;
+    top: 100px;
+    /* Sticks to top on scroll */
+}
+
+.contact-card h3 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.4rem;
+}
